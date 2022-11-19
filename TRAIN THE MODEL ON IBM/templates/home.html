@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<style>
+	*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	height: 100vh;
+	width: 100%;
+	background-image: url(background1.webp);
+	background-position: center;
+	background-size: cover;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	position: relative;
+}
+.navbar{
+	width: 100%;
+	height: 15vh;
+	margin: auto;
+	display: flex;
+	align-items: center;
+
+}
+.logo{
+	width: 160px;
+	cursor: pointer;
+}
+.cart{
+	width: 40px;
+	cursor: pointer;
+}
+nav{
+	flex: 1;
+	padding-left: 60px;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: rgb(2, 34, 51);
+}
+.content h1{
+	font-size: 60px;
+	font-weight: 100;
+	margin-top: 24px;
+	margin-bottom: 15px;
+	color: #020928;
+	
+}
+.content p{
+	font-size: 20px;
+	color: #6a7199;
+	
+}
+.content{
+	margin-left: 10%;
+	margin-top: 10%;
+    background-image: url("https://i.pinimg.com/736x/1f/6e/96/1f6e960743d58a6a69a09a66d4b87da7.jpg");
+}
+/* .content .b{
+    background-color: rgb(242, 233, 208);
+} */
+.content .btn{
+	display: inline-block;
+	background: linear-gradient(45deg, #d57f0f, #f5f7b4);
+	border-radius: 6px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	text-decoration: none;
+	box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+	color:rgb(8, 0, 1);
+	font-weight: bold;
+
+}
+.arrow-icons{
+	margin-top: 40px;
+	display: flex;
+}
+.arrow-icons img{
+	width: 40px;
+	margin-right: 25px;
+}
+.feature-img{
+	height: 90%;
+	position: absolute;
+	bottom: 0;
+	right: 160px;
+}
+.social-links{
+	transform: rotate(-90deg);
+	position: absolute;
+	left: -80px;
+	bottom: 180px;
+}
+.social-links a{
+	text-decoration: none;
+	color: #982828;
+	padding-right: 20px;
+	font-size: 14px;
+}
+	</style>
+<body>
+    <div class="container">
+        <div class="navbar">
+            
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="procedure.html">Procedure</a></li>
+                   
+                 
+                    </ul>
+            </nav>
+            
+            </div>
+            <div class="content">
+                <div class="b">
+                <h1>Smart Lender - Applicant Credibility Prediction For Loan Approval </h1>
+                <p> Predit your loan eligibility here</p>
+                </div><br><br>
+                <a href="predict.html" class="btn">PREDICT</a>
+               
+                
+              
+            </div>
+          
+    </div>
+</body>
+
+</html>
